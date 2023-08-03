@@ -1,0 +1,36 @@
+/* Estilos para tareas completadas */
+.completada {
+  text-decoration: line-through;
+  color: gray;
+}
+#listaTareas{
+  display:flex;
+  flex-direction: column;
+  gap: 7px;
+}
+#listaTareas li{
+  display:flex;
+  gap: 7px;
+  justify-content: flex-start;
+}
+.btn-completar {
+  background-color: #00800078;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Estilos para el botón Eliminar */
+.btn-eliminar {
+  background-color: #ff00008a;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Estilos para los botones */
+button {
+  margin-left: 5px;
+}
